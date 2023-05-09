@@ -12,9 +12,11 @@ body{
 .header {
     height: 70px;
     width: 100%;
-    background-color: #313866;
+    background-color: #fff;
     color: #FF7BBF;
     display: flex;
+    position: fixed;
+    top: 0;
 }
 
 .header .logo {
@@ -37,3 +39,39 @@ body{
     /* color: pink; */
 }
 
+.navbar{
+    display: flex;
+}
+
+.main{
+    height: 1000px;
+    width: 1600px;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.backgroundImg{
+    width: 1600px;
+    height: 700px;
+    margin: auto;
+    display: block;
+}
+
+.mainContainer {
+    background-color: rgba(60, 60, 60, 0.05);
+}
+
+.container{
+    margin-top: 50px;
+    height: 300px;
+    width: 1600px;
+    display: block;
+}
+
+.scroll img{
+    height: 200px;
+    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
