@@ -81,3 +81,24 @@ body{
     text-align: center;
     padding: 10px;
 }
+
+.footer-us{
+    display: flex;
+    width: 100%;
+    height: 100%
+}
+
+.footer-title{
+    width: 33%;
+    height: 30%;
+}
+
+.footer-content{
+    width: 33%;
+    height: 30%;
+}
+
+.footer-about-us{
+    width: 33%;
+    height: 30%;
+}
