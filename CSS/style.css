@@ -44,7 +44,7 @@ body{
 }
 
 .main{
-    height: 1000px;
+    height: 100%;
     width: 1600px;
     display: block;
     margin: auto;
