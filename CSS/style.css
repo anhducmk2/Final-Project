@@ -43,6 +43,24 @@ body{
     display: flex;
 }
 
+.navbar a{
+    height: 60px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FF7BBF;
+}
+
+.navbar a:hover{
+    border: solid 1px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #FF7BBF;
+    color: #fff;
+}
+
 .main{
     height: 100%;
     width: 1600px;
