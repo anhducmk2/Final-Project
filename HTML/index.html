@@ -7,7 +7,7 @@
     <title>Hip Project</title>
     <link rel="stylesheet" href="../CSS/style.css" />
   </head>
-  <body>
+  <header>
     <!-- nav bar -->
     <div class="header">
       <div class="logo">
@@ -15,13 +15,20 @@
       </div>
       <h1>Hip's Book Store</h1>
       <div class="navbar">
-        <ul class="headerCategory">
+        <ul class="menu">
           <li class="navbarStyle">
             <a href="./home.html" class="styleText">Home</a>
           </li>
-          <li class="navbarStyle">
-            <a href="./category.html" class="styleText">Category</a>
-          </li>
+          <ul class="navbarStyleCategory">
+            <li class="dropdown"><a>Category</a></li>
+            <li class="dropdownCategory"><a class="dropdowText">test</a></li>
+            <li class="dropdownCategory"><a class="dropdowText">test</a></li>
+            <li class="dropdownCategory"><a class="dropdowText">test</a></li>
+          </ul>
+
+          <!-- <li class="navbarStyle">
+                <a href="./category.html" class="styleText">Category</a>
+              </li> -->
           <li class="navbarStyle">
             <a href="./about.html" class="styleText">About</a>
           </li>
@@ -39,6 +46,8 @@
         </ul>
       </div>
     </div>
+  </header>
+  <body>
     <div class="main">
       <div class="backImg">
         <img class="coverImg" src="../IMAGE/BookStore.jpg" alt="" />
