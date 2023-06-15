@@ -104,6 +104,13 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.searchBox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .registerStyle{
    padding-left: 15px; 
 }
